@@ -1,0 +1,17 @@
+
+version: '3'
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nodejs
+    container_name: nodejs
+    restart: unless-stopped
+    environment:
+      - FAKE_IMG_URI="http://google.com"
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/home/node/app
+      - ./node_modules:/home/node/app/node_modules

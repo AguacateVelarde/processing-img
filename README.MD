@@ -1,5 +1,5 @@
 - [ ] Create the GET `/image.jpg` endpoint to generate the image. Must be able to view it in the browser.
-- [] Must take the RAW image from the camera's remote endpoint → GET:[https://fake-img-endpoint.vercel.app/api/image](https://fake-img-endpoint.vercel.app/api/image)
+- [ ] Must take the RAW image from the camera's remote endpoint → GET:[https://fake-img-endpoint.vercel.app/api/image](https://fake-img-endpoint.vercel.app/api/image)
 - [ ] Must be able to handle known bugs from the camera. Listed below are the known bugs:
 - [ ] Must use `X-SESSION-NAME` header to as a reference for the logs.
 - [ ] Must use `side` parameter to be used in logs and must be one of these options: `left`, `right` or `center`
